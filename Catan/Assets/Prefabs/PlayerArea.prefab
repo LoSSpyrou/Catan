@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3975840385809060871}
   - component: {fileID: 4402465539573567851}
   - component: {fileID: 7057827053313207642}
+  - component: {fileID: 1952987100021998561}
   m_Layer: 5
   m_Name: PlayerArea
   m_TagString: Untagged
@@ -35,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -316.68695}
-  m_SizeDelta: {x: 1469, y: 98.6261}
+  m_SizeDelta: {x: 1469, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4402465539573567851
 CanvasRenderer:
@@ -75,3 +76,27 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1952987100021998561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965209668820776973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 2
+  m_StartAxis: 1
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 10, y: 0}
+  m_Constraint: 2
+  m_ConstraintCount: 1
