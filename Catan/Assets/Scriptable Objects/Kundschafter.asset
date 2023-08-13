@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73cd5fabf7f124e4a912c86414d3f6d5, type: 3}
+  m_Name: Kundschafter
+  m_EditorClassIdentifier: 
+  name: Kundschafter
+  description: Spielen Sie diese Karte beim Bau einer Siedlung aus und sichen Sie
+    sich 2 beliebige Landschaftskarten aus dem Stapel aus. Mischen Sie danach den
+    Stapel.
+  artwork: {fileID: 21300000, guid: fe4ca79a5c8c8784d87d618b014afbe8, type: 3}
